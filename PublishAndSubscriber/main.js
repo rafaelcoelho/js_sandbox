@@ -22,8 +22,6 @@ const channels = () => {
     }
 }
 
-
-
 const socket = channels()
 
 socket.subscriber('service_01', msg => {
